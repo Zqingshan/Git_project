@@ -1,11 +1,11 @@
 package com.zqs.student;
 
 public class student {
-	private int id;
-	private String username;
-	private String password;
-	private int age;
-	private int sex;
+	private int id; //唯一标识 ID
+	private String username; //用户名
+	private String password; //密码
+	private int age; //年龄
+	private int sex; //性别
 	
 	public int getId() {
 		return id;
